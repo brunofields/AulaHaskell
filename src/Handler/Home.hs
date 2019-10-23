@@ -13,7 +13,3 @@ import Database.Persist.Postgresql
 getHomeR :: Handler Html
 getHomeR = do
         handlerName = "getHomeR" :: Text
-
-    defaultLayout $ do
-        setTitle "Pokedex"
-        $(widgetFile "homepage")
