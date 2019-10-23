@@ -2,7 +2,7 @@
 # See https://github.com/yesodweb/yesod/wiki/Configuration#overriding-configuration-values-with-environment-variables
 
 static-dir:     "_env:STATIC_DIR:static"
-host:           "_env:HOST:127.0.0.1" # any IPv4 host
+host:           "_env:HOST:localhost" # any IPv4 host
 port:           "_env:PORT:80" # NB: The port `yesod devel` uses is distinct from this value. Set the `yesod devel` port from the command line.
 ip-from-header: "_env:IP_FROM_HEADER:false"
 
@@ -25,8 +25,8 @@ ip-from-header: "_env:IP_FROM_HEADER:false"
 
 database:
   user:     "_env:PGUSER:admin"
-  password: "_env:PGPASS:root123"
-  host:     "_env:PGHOST:127.0.0.1"
+  password: "_env:PGPASS:root"
+  host:     "_env:PGHOST:localhost"
   port:     "_env:PGPORT:80"
   # See config/test-settings.yml for an override during tests
   database: "_env:PGDATABASE:pokedex"
