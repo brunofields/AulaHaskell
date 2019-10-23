@@ -11,4 +11,3 @@ import Import
 import Database.Persist.Postgresql
 
 getHomeR :: Handler Html
-getHomeR = do
