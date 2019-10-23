@@ -1,4 +1,6 @@
-                       <div class="logo-header">
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+<div class="logo-header">
                         <img src="https://fontmeme.com/permalink/190927/beddc2af0a016dc23443ed11bdd31c98.png" alt="fonte-de-pokemon" border="0">
                        
                        <div class="content">
