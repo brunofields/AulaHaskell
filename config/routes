@@ -1,6 +1,7 @@
 /static StaticR Static appStatic
 
 /favicon.ico FaviconR GET
-/ads.txt  
+/robots.txt RobotsR GET
+/ads.txt  AdsR GET
 
 / HomeR GET 
