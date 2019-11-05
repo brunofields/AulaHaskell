@@ -21,7 +21,7 @@ body {
   z-index: 9;
 }
 .tutorial-button {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   font-family: 'Open Sans', Arial;
